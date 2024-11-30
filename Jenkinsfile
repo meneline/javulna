@@ -2,7 +2,7 @@ pipeline { // Defines a pipeline
   agent any // Specifies that the pipeline can be run on any available agent
 
   tools { // Configures the tools used in the pipeline
-    maven 'maven' // Specifies the Maven tool that should be used in the pipeline
+    maven 'Maven' // Specifies the Maven tool that should be used in the pipeline
   }
 
   stages { // Defines the different stages of the pipeline
